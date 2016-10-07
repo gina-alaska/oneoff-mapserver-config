@@ -1,0 +1,12 @@
+defaults:
+  prefix: map
+  mapserv: /opt/mapping_tools_builds/2016.08.05/bin/mapserv
+  envsh: /opt/mapping_tools_builds/2016.08.05/setup.sh
+  maps:
+    nothing: /nothing.map
+configs:
+  "/asrc-fed":
+    prefix: "oneoff"
+    url: "/asrc-fed"
+    projections:
+      default: "asrc-fed.map"

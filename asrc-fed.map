@@ -1,0 +1,5 @@
+#mapfile for asrc-fed
+MAP
+	include "defaults/asrc-fed.default.includes.map"
+	include "layers/imagery/feeder/3338.layers.map"
+END

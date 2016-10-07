@@ -1,0 +1,10 @@
+unifont fonts/unifont.ttf
+arialuni fonts/arialuni.ttf
+sc fonts/DejaVuSansCondensed.ttf
+scb fonts/DejaVuSansCondensed-Bold.ttf
+khmer fonts/KhmerOS.ttf
+jp fonts/ipag.ttf
+quad_label fonts/DejaVuSansCondensed.ttf
+hydro_label fonts/DejaVuSansCondensed.ttf
+tls_label fonts/DejaVuSansCondensed.ttf
+

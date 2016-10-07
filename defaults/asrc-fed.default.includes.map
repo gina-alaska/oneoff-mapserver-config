@@ -1,0 +1,44 @@
+	NAME ASRC-FED
+	STATUS ON
+	SIZE 260 260
+
+# This is boilerplate stuff... not applicable
+	IMAGETYPE png24
+	IMAGECOLOR 0 0 0
+
+# Debug is on!
+#	DEBUG 5
+	SHAPEPATH "."
+#	CONFIG "MS_ERRORFILE" "/dev/stderr"
+
+
+#default max size is 6k by 6k..
+	MAXSIZE 13312
+
+# Output formats - only important thing is png24 - 24bit pngs.
+
+	include "defaults/output_formats.agg.include.map"
+
+### Not used for wms based stuff..
+	#include "includes/projections/4326.include.map"
+	PROJECTION
+		"init=epsg:4326"
+	END
+
+	EXTENT -154 61 -144 64
+
+	WEB
+		#location of temp files - used for geotif requests..
+		IMAGEPATH             "/hub/bdl/cache/tmp/"
+		METADATA
+	                #update with something more useful.
+			"wms_title"             "ASRC-FED"
+			"wms_name"              "ASRC-FED"
+			"wms_abstract"          "Data for GINA's project with ASRC-FED"
+	                include "defaults/wms_defaults.include.map"
+			"wms_onlineresource"    "http://spam.gina.alaska.edu/oneoff/asrc-fed?"
+			"wms_enable_request"	"*"
+		END
+    END
+
+

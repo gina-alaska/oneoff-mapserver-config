@@ -1,0 +1,112 @@
+defaults:
+  prefix: map
+  mapserv: /opt/mapping_tools_builds/2013-05-08/bin/mapserv
+  envsh: /opt/mapping_tools_builds/2013-05-08/setup.sh
+  maps:
+    nothing: /nothing.map
+configs:
+  "/ahap":
+    prefix: "ahap"
+    url: "/ahap"
+    projections: 
+      default: "/www/ogc/apps/wms/ahap.map"
+  "/aea/suwa.private/rapideye":
+    prefix: "aea"
+    url: "/aea/suwa.private/rapideye"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.rapideye.map"
+  "/aea/suwa.private/veg_map_sat":
+    prefix: "aea"
+    url: "/aea/suwa.private/veg_map_sat"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.veg_map_sat.map"
+  "/aea/suwa":
+    prefix: "aea"
+    url: "/aea/suwa"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.map"
+  "/epscor":
+    prefix: "epscor"
+    url: "/epscor"
+    projections:
+      default: "/www/ogc/apps/wms/epscor.map"
+      3338: "/www/ogc/apps/wms/epscor.3338.map"
+      3857: "/www/ogc/apps/wms/epscor.3857.map"
+      900913: "/www/ogc/apps/wms/epscor.3857.map"
+  "/epscor.private":
+    prefix: "epscor.private"
+    url: "/epscor.private"
+    projections:
+      default: "/www/ogc/apps/wms/epscor.private.map"
+  "/preabove":
+    prefix: "preabove"
+    url: "/preabove"
+    projections:
+      default: "/www/ogc/apps/wms/preabove.map"
+      3338: "/www/ogc/apps/wms/preabove.3338.map"
+      3857: "/www/ogc/apps/wms/preabove.3857.map"
+      900913: "/www/ogc/apps/wms/preabove.3857.map"
+  "/gina.private":
+    prefix: "gina.private"
+    url: "/gina.private"
+    projections:
+      default: "/www/ogc/apps/wms/gina.private.map"
+  "/aerial":
+    prefix: "aerial"
+    url: "/aerial"
+    projections:
+      default: "/www/ogc/apps/wms/aerial.map"
+  "/osm/basemap":
+    prefix: "osm"
+    url: "/osm/basemap"
+    projections:
+      default: "/www/ogc/apps/wms/osm/osm-basemap.map"
+      3338: "/www/ogc/apps/wms/osm/osm-basemap.alaska.map"
+      4326: "/www/ogc/apps/wms/osm/osm-basemap.map"
+      3857: "/www/ogc/apps/wms/osm/osm-basemap.google.map"
+      900913: "/www/ogc/apps/wms/osm/osm-basemap.google.map"
+      3572: "/www/ogc/apps/wms/osm/osm-basemap.alaska_polar.map"
+      3573: "/www/ogc/apps/wms/osm/osm-basemap.alaska_polar.map"
+      3574: "/www/ogc/apps/wms/osm/osm-basemap.alaska_polar.map"
+      3575: "/www/ogc/apps/wms/osm/osm-basemap.alaska_polar.map"
+      3576: "/www/ogc/apps/wms/osm/osm-basemap.alaska_polar.map"
+  "/osm/overlay":
+    prefix: "osm"
+    url: "/osm/overlay"
+    projections:
+      default: "/www/ogc/apps/wms/osm/osm-ol.map"
+      3338: "/www/ogc/apps/wms/osm/osm-ol.alaska.map"
+      4326: "/www/ogc/apps/wms/osm/osm-ol.map"
+      3857: "/www/ogc/apps/wms/osm/osm-ol.google.map"
+      900913: "/www/ogc/apps/wms/osm/osm-ol.google.map"
+      3572: "/www/ogc/apps/wms/osm/osm-ol.alaska_polar.map"
+      3573: "/www/ogc/apps/wms/osm/osm-ol.alaska_polar.map"
+      3574: "/www/ogc/apps/wms/osm/osm-ol.alaska_polar.map"
+      3575: "/www/ogc/apps/wms/osm/osm-ol.alaska_polar.map"
+      3576: "/www/ogc/apps/wms/osm/osm-ol.alaska_polar.map"
+  "/osm":
+    prefix: "osm"
+    url: "/osm"
+    projections:
+      default: "/www/ogc/apps/wms/osm/osm.map"
+  "/source":
+    prefix: "source"
+    url: "/source"
+    projections:
+      default: "/www/ogc/apps/wms/sdmi.source.map"
+  "/acuasi":
+    prefix: "acuasi"
+    url: "/acuasi"
+    projections:
+      default: "/www/ogc/apps/wms/acuasi.map"
+  "/nssi":
+    prefix: "nssi"
+    url: "/nssi"
+    projections:
+      default: "/www/ogc/apps/wms/nssi.map"
+  "/insar":
+    prefix: "insar"
+    url: "/insar"
+    projections:
+      default: "/www/ogc/apps/wms/insar.map"
+      3857: "/www/ogc/apps/wms/insar.3857.map" 

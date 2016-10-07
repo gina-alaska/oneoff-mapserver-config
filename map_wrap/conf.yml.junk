@@ -1,0 +1,22 @@
+defaults:
+  prefix: map
+  mapserv: /opt/mapping_tools_builds/2013-05-08/bin/mapserv
+  envsh: /opt/mapping_tools_builds/2013-05-08/setup.sh
+  maps:
+    nothing: /nothing.map
+configs:
+  "/aea/suwa.private/rapideye":
+    prefix: "aea"
+    url: "/aea/suwa.private/rapideye"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.rapideye.map"
+  "/aea/suwa.private/rapideye.junk":
+    prefix: "aea"
+    url: "/aea/suwa.private/rapideye.junk"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.rapideye.junk.map"
+  "/aea/suwa.private/veg_map_sat":
+    prefix: "aea"
+    url: "/aea/suwa.private/veg_map_sat"
+    projections:
+      default: "/www/ogc/apps/wms/aea.suwa.veg_map_sat.map"
